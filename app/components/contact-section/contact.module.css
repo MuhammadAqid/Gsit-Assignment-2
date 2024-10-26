@@ -1,0 +1,133 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    /* height: 70vh; */
+    margin-bottom: 50px;
+
+}
+
+.row {
+    display: flex;
+    margin: 0 0 10px 0;
+}
+
+.tittle {
+    display: inline-block;
+    background: #B9FF66;
+    margin: 0 50px;
+    align-self: center;
+    padding: 5px;
+}
+
+.desc {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.97px;
+    text-align: left;
+}
+
+.inputarea{
+    max-width: 1100px;
+    margin: auto;
+    width: 1240px;
+    height: 772px;
+    background-color: #F3F3F3;
+    padding: 60px 100px 80px 100px;
+}
+.namelabel{
+    font-size: 19px;
+}
+#name{
+    background-color: transparent;
+    padding: 13px;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    margin: 7px 50px 0 0;
+    width: 350px;
+    height: 49px;
+}
+#name2{
+    background-color: transparent;
+    color: #000;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    margin: 7px 50px 0 0;
+    width: 350px;
+    height: 49px;
+    display: inline-block;
+}
+.fname{
+    opacity: 0.7;
+    font-size: 15px;
+    margin: 5px 30px 0 0 ;
+    display: inline;
+}
+.lname{
+    opacity: 0.7;
+    font-size: 15px;
+}
+.emailarea{
+    margin-top: 60px;
+}
+.emaillabel{
+    font-size: 19px;
+}
+.email{
+    background-color: transparent;
+    color: #000;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    margin: 7px 50px 0 0;
+    width: 350px;
+    height: 49px;
+    margin-bottom: 45px;
+}
+
+.phonelabel{
+    font-size: 19px;
+}
+.number{
+    background-color: transparent;
+    color: #000;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    margin: 7px 50px 0 0;
+    width: 350px;
+    height: 49px;
+    
+}
+
+.messagearea{
+    margin-top: 40px;
+}
+.messagelabel{
+    font-size: 19px;
+}
+.message{
+    margin-top: 10px;
+    width: 900px;
+    height: 190px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.buttonarea{
+    margin: 45px 0 0 280px;
+}
+.btn{
+    width: 350px;
+    height: 49px;
+    font-size: 18px;
+    word-spacing: 5px;
+    background: #191A23;
+    border: none;
+    border-radius: 6px;
+}
